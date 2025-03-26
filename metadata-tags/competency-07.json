@@ -1,0 +1,36 @@
+{
+  "id": 7,
+  "competencyDomain": "Cultivates trust and safety",
+  "description": "Coach acknowledges and supports the client's expression of feelings, perceptions, concerns, beliefs or suggestions.",
+  "focus": [
+    "client-centered",
+    "relationship-building",
+    "supporting",
+    "empathy",
+    "acknowledgment"
+  ],
+  "coachingPhase": [
+    "throughout-session"
+  ],
+  "relatedCompetencies": [
+    5,
+    6,
+    8,
+    16
+  ],
+  "demonstrationExamples": [
+    "Responding with 'I can hear how important this is to you' when client expresses strong emotions",
+    "Acknowledging client's perspective with 'That's a really interesting way to look at the situation'",
+    "Inviting deeper exploration with 'You seem concerned about that outcome. Would you like to explore that more?'",
+    "Validating without judgment, 'I appreciate you sharing your perspective on this'"
+  ],
+  "assessment": {
+    "observable": true,
+    "evaluationMethods": [
+      "direct-observation",
+      "session-recording-analysis",
+      "client-feedback",
+      "mentor-coaching"
+    ]
+  }
+}
