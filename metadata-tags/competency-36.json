@@ -1,0 +1,38 @@
+{
+  "id": 36,
+  "competencyDomain": "Facilitates client growth",
+  "description": "Coach celebrates the client's progress and learning.",
+  "focus": [
+    "client-centered",
+    "growth-facilitating",
+    "celebration",
+    "acknowledgment",
+    "supporting"
+  ],
+  "coachingPhase": [
+    "session-closing",
+    "throughout-session"
+  ],
+  "relatedCompetencies": [
+    5,
+    30,
+    31,
+    32,
+    37
+  ],
+  "demonstrationExamples": [
+    "Acknowledging client's insights with 'What a powerful realization you've come to today'",
+    "Celebrating progress with 'I want to acknowledge the courage it took to make that decision'",
+    "Highlighting growth with 'Look at how far you've come since we started working together'",
+    "Recognizing effort with 'The work you've done here today reflects your commitment to your growth'",
+    "Noting patterns of development with 'I notice how you're approaching challenges with a new perspective now'"
+  ],
+  "assessment": {
+    "observable": true,
+    "evaluationMethods": [
+      "direct-observation",
+      "client-feedback",
+      "session-recording-analysis"
+    ]
+  }
+}
