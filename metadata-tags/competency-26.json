@@ -1,0 +1,40 @@
+{
+  "id": 26,
+  "competencyDomain": "Evokes awareness",
+  "description": "Coach asks clear, direct, primarily open-ended questions, one at a time, at a pace that allows for thinking, feeling or reflection by the client.",
+  "focus": [
+    "questioning",
+    "reflection",
+    "awareness-creating",
+    "clarity",
+    "presence"
+  ],
+  "coachingPhase": [
+    "exploration",
+    "awareness-building",
+    "throughout-session"
+  ],
+  "relatedCompetencies": [
+    12,
+    13,
+    22,
+    23,
+    24
+  ],
+  "demonstrationExamples": [
+    "Using questions that start with 'what' or 'how' rather than closed yes/no questions",
+    "Asking 'What does success look like for you in this situation?' and allowing silence for reflection",
+    "Posing one clear question and waiting for the client to fully respond before asking another",
+    "Using a thoughtful pace that gives the client space to think deeply before responding",
+    "Following up with 'What feelings come up for you when you consider that option?'"
+  ],
+  "assessment": {
+    "observable": true,
+    "evaluationMethods": [
+      "direct-observation",
+      "session-recording-analysis",
+      "mentor-coaching",
+      "peer-review"
+    ]
+  }
+}
