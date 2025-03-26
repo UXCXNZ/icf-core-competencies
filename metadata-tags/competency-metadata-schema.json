@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ICF Competency Metadata Schema",
+  "description": "Standardized schema for tagging ICF coaching competencies",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Unique identifier for the competency marker (1-37)"
+    },
+    "competencyDomain": {
+      "type": "string",
+      "enum": [
+        "Establishes and maintains agreements",
+        "Cultivates trust and safety",
+        "Maintains presence",
+        "Listens actively",
+        "Evokes awareness",
+        "Facilitates client growth"
+      ],
+      "description": "The main competency domain this marker belongs to"
+    },
+    "description": {
+      "type": "string",
+      "description": "Full text description of the competency marker"
+    },
+    "focus": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "client-centered",
+          "session-focused",
+          "relationship-building",
+          "awareness-creating",
+          "growth-facilitating",
+          "action-oriented",
+          "learning-focused",
+          "progress-tracking",
+          "future-planning",
+          "accountability",
+          "celebration",
+          "completion",
+          "partnership",
+          "curiosity",
+          "listening",
+          "observation",
+          "reflection",
+          "questioning",
+          "summarizing",
+          "supporting",
+          "empathy",
+          "respect",
+          "acknowledgment",
+          "clarity",
+          "conciseness",
+          "presence"
+        ]
+      },
+      "description": "Key focus areas or themes of this competency"
+    },
+    "coachingPhase": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "session-opening",
+          "exploration",
+          "awareness-building",
+          "planning",
+          "session-closing",
+          "throughout-session"
+        ]
+      },
+      "description": "When in the coaching process this competency is most relevant"
+    },
+    "relatedCompetencies": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 37
+      },
+      "description": "IDs of other competency markers that are closely related"
+    },
+    "demonstrationExamples": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Examples of coach behaviors that demonstrate this competency"
+    },
+    "assessment": {
+      "type": "object",
+      "properties": {
+        "observable": {
+          "type": "boolean",
+          "description": "Whether this competency can be directly observed in a session"
+        },
+        "evaluationMethods": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "direct-observation",
+              "client-feedback",
+              "coach-reflection",
+              "session-recording-analysis",
+              "mentor-coaching",
+              "peer-review"
+            ]
+          },
+          "description": "Methods for evaluating this competency"
+        }
+      }
+    }
+  },
+  "required": ["id", "competencyDomain", "description", "focus", "coachingPhase"]
+}
