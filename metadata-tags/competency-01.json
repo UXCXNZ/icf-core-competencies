@@ -1,0 +1,33 @@
+{
+  "id": 1,
+  "competencyDomain": "Establishes and maintains agreements",
+  "description": "Coach partners with the client to identify or reconfirm what the client wants to accomplish in this session.",
+  "focus": [
+    "client-centered",
+    "session-focused",
+    "partnership",
+    "clarity"
+  ],
+  "coachingPhase": [
+    "session-opening"
+  ],
+  "relatedCompetencies": [
+    2,
+    3,
+    4,
+    10
+  ],
+  "demonstrationExamples": [
+    "Asking 'What would you like to focus on in our session today?'",
+    "Confirming understanding with 'So if I'm hearing you correctly, you'd like to explore how to approach this difficult conversation with your colleague?'",
+    "Checking in mid-session with 'Are we still on track with what you wanted to accomplish today?'"
+  ],
+  "assessment": {
+    "observable": true,
+    "evaluationMethods": [
+      "direct-observation",
+      "session-recording-analysis",
+      "client-feedback"
+    ]
+  }
+}
